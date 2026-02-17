@@ -1,6 +1,18 @@
+# Dependencies
 node_modules/
-node_modules/
+**/node_modules/
+
+# Heavy folders (tracked separately)
 Initatives/pm-in-the-loop/
 Initatives/youtube/
-Initatives/pm-in-the-loop/
-Initatives/youtube/
+
+# Embedded git repos (submodules not intended)
+Initatives/ideas/
+Initatives/job-search/KekaHr/archive/previous-interaction/
+
+# Env and secrets
+.env
+*.db
+
+# OS
+.DS_Store
